@@ -276,3 +276,4 @@ C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Ap
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net6.0\ref\DevIO.App.dll
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net6.0\DevIO.App.pdb
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.App\obj\Debug\net6.0\DevIO.App.genruntimeconfig.cache
+C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.App\bin\Debug\net6.0\libman.json
