@@ -13,6 +13,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MeuDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddDbContext<ApplicationDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<MeuDbContext>().AddDefaultTokenProviders();
+
 builder.Services.AddAutoMapper(typeof(Program));
 
 //Repositorios
@@ -50,6 +55,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
+
+//app.MapRazorPages();
 
 app.Run();

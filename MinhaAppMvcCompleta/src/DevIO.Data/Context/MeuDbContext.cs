@@ -16,13 +16,6 @@ namespace DevIO.Data.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //        //Caso esqueça não entre como nvarcharmax
-
-            //        foreach (var property in modelBuilder.Model.GetEntityTypes()
-            //            .SelectMany(e => e.GetProperties()
-            //                .Where(p => p.ClrType == typeof(string))))
-            //            property.Relational().ColumnType = "varchar(100)";
-
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MeuDbContext).Assembly);
 
@@ -30,6 +23,15 @@ namespace DevIO.Data.Context
 
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys())) relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
             base.OnModelCreating(modelBuilder);
+            
+
+            //Caso esqueça não entre como nvarcharmax
+
+            //        foreach (var property in modelBuilder.Model.GetEntityTypes()
+            //            .SelectMany(e => e.GetProperties()
+            //                .Where(p => p.ClrType == typeof(string))))
+            //            property.Relational().ColumnType = "varchar(100)";
+
         }
 
 
