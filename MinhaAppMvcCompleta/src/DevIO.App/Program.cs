@@ -1,5 +1,7 @@
 using DevIO.App.Data;
+using DevIO.Business.Interfaces;
 using DevIO.Data.Context;
+using DevIO.Data.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,11 +10,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => 
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
 builder.Services.AddDbContext<MeuDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Repositorios
+builder.Services.AddScoped<MeuDbContext>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
 
 
 

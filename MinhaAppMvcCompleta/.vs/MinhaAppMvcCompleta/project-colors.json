@@ -6,15 +6,20 @@
       "DisplayName": "DevIO.App",
       "ColorIndex": 0
     },
-    "a783412d-38cf-4555-9ee8-a1bfd4185620": {
-      "ProjectGuid": "a783412d-38cf-4555-9ee8-a1bfd4185620",
-      "DisplayName": "DevIO.Business",
-      "ColorIndex": 1
-    },
     "f17777b7-0510-4bfb-a6f7-fe6a8876249c": {
       "ProjectGuid": "f17777b7-0510-4bfb-a6f7-fe6a8876249c",
       "DisplayName": "DevIO.Data",
+      "ColorIndex": 1
+    },
+    "a783412d-38cf-4555-9ee8-a1bfd4185620": {
+      "ProjectGuid": "a783412d-38cf-4555-9ee8-a1bfd4185620",
+      "DisplayName": "DevIO.Business",
       "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 3

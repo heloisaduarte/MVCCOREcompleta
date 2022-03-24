@@ -2,7 +2,6 @@ C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Bu
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.dll
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net6.0\ref\DevIO.Business.dll
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\bin\Debug\net6.0\DevIO.Business.pdb
-C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.csproj.AssemblyReference.cache
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfoInputs.cache
 C:\Users\heloisa.silva\Projetos\MVCCOREcompleta\MinhaAppMvcCompleta\src\DevIO.Business\obj\Debug\net6.0\DevIO.Business.AssemblyInfo.cs
