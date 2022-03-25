@@ -1,9 +1,13 @@
 using DevIO.App.Data;
+using DevIO.App.Extensions;
 using DevIO.Business.Interfaces;
 using DevIO.Data.Context;
 using DevIO.Data.Repository;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +29,7 @@ builder.Services.AddScoped<MeuDbContext>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
 builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+builder.Services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvder>();
 
 
 
@@ -51,6 +56,15 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+var defaultCulture = new CultureInfo("pt-BR");
+var localizationOptions = new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture(defaultCulture),
+    SupportedCultures = new List<CultureInfo> { defaultCulture },
+    SupportedUICultures = new List<CultureInfo> { defaultCulture },
+};
+app.UseRequestLocalization(localizationOptions);
 
 app.MapControllerRoute(
     name: "default",
