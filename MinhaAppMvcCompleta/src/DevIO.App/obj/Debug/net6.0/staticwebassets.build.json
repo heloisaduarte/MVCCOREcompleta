@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cWRXbISVfJPnqtEMbQDMNTezVC30zSOxemgv7j5nVgE=",
+  "Hash": "WJyw3xjerEpeKY0RluAmMFXm4gD9QOrbC9GmGhH9buA=",
   "Source": "DevIO.App",
   "BasePath": "_content/DevIO.App",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagens\\ecf4896a-a71f-42f0-9733-e976804f01ad_Captura de tela 2022-03-24 162101.png"
+    },
+    {
+      "Identity": "C:\\Users\\heloisa.silva\\Projetos\\MVCCOREcompleta\\MinhaAppMvcCompleta\\src\\DevIO.App\\wwwroot\\imagens\\ee91e292-60d4-4c97-8399-2a0101612526_Captura de tela 2022-03-24 162101.png",
+      "SourceId": "DevIO.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\heloisa.silva\\Projetos\\MVCCOREcompleta\\MinhaAppMvcCompleta\\src\\DevIO.App\\wwwroot\\",
+      "BasePath": "_content/DevIO.App",
+      "RelativePath": "imagens/ee91e292-60d4-4c97-8399-2a0101612526_Captura de tela 2022-03-24 162101.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\ee91e292-60d4-4c97-8399-2a0101612526_Captura de tela 2022-03-24 162101.png"
     },
     {
       "Identity": "C:\\Users\\heloisa.silva\\Projetos\\MVCCOREcompleta\\MinhaAppMvcCompleta\\src\\DevIO.App\\wwwroot\\js\\site.js",
