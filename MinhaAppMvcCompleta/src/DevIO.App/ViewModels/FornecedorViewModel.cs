@@ -5,6 +5,11 @@ namespace DevIO.App.ViewModels
 {
     public class FornecedorViewModel
     {
+
+        public FornecedorViewModel()
+        {
+            Produtos = new List<ProdutoViewModel>();
+        }
         [Key]
         public Guid Id { get; set; }
 
@@ -23,6 +28,6 @@ namespace DevIO.App.ViewModels
 
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
-        //public IEnumerable<ProdutoViewModel> Produtos { get; set; }
+        public IEnumerable<ProdutoViewModel> Produtos { get; set; }
     }
 }
