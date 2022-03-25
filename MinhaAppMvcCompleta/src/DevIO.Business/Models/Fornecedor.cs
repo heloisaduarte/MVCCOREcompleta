@@ -2,6 +2,10 @@
 {
     public class Fornecedor : Entity
     {
+        public Fornecedor()
+        {
+            Produtos = new List<Produto>();
+        }
         public string Nome { get; set; }    
         public string Documento { get; set;}
         public TipoFornecedor TipoFornecedor { get; set;}
@@ -10,6 +14,6 @@
 
         /*EF Relations*/
 
-        public IEnumerable<Produto> Produtos { get; set; }
+        public IEnumerable<Produto>? Produtos { get; set; }
     }
 }

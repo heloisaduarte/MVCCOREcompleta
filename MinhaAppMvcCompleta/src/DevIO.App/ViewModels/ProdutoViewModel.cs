@@ -5,12 +5,10 @@ namespace DevIO.App.ViewModels
 {
     public class ProdutoViewModel
     {
-
-        //public ProdutoViewModel()
-        //{
-        //    Fornecedor = new FornecedorViewModel();
-        //    Fornecedores = new List<FornecedorViewModel>();
-        //}
+        public ProdutoViewModel()
+        {
+            Fornecedores = new List<FornecedorViewModel>();
+        }
         [Key]
         public Guid Id { get; set; }
 
